@@ -7,8 +7,8 @@ from copy import deepcopy
 from rdflib import URIRef, RDF
 
 from src import *
-from modules.run.test1 import *
-from modules.run.test2 import *
+from src.modules.run.test1 import *
+from src.modules.run.test2 import *
 from src.modules.build.build_classes_stereotypes_information import collect_stereotypes_classes_information
 from src.modules.build.build_directories_structure import get_list_ttl_files, \
     create_test_directory_folders_structure, create_test_results_folder, create_internal_catalog_path
